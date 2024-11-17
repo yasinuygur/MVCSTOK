@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9fc69914267a4a049593dd443552e91a" Name="Diagram1">
+        <EntityTypeShape EntityType="DBMVCSTOKModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMVCSTOKModel.TBLKATEGORI" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMVCSTOKModel.TBLMUSTERILER" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMVCSTOKModel.TBLSATI" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMVCSTOKModel.TBLURUNLER" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DBMVCSTOKModel.FK_TBLURUNLER_TBLKATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMVCSTOKModel.FK_TBLSATIS_TBLMUSTERILER" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMVCSTOKModel.FK_TBLSATIS_TBLURUNLER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
